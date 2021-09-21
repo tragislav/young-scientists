@@ -87,13 +87,13 @@ a {
     line-height: 18px;
 }
 
-.search__input::after {
+.header__top-inner__func-search label::after {
     position: relative;
     width: 20px;
     height: 20px;
-    margin-right: 10px;
     content: url(../images/search.png);
-    background: #ffffff;
+    top: 5px;
+    left: 15px;
 }
 
 .profile {
@@ -176,7 +176,7 @@ a {
     background: rgba(28, 48, 92, 0.32);
     margin-top: 127px;
     margin-bottom: 255px;
-    padding-left: 352px;
+    padding-left: 18%;
     height: 333px;
 }
 
@@ -250,11 +250,15 @@ a {
 .news__card {
     width: 386px;
     height: 480px;
-    text-decoration: none;
+    margin-bottom: 60px;
 }
 
 .news__card:nth-child(odd) {
     margin-right: 30px;
+}
+
+.news__card-link {
+    text-decoration: none;
 }
 
 .news__card-photo {
@@ -544,11 +548,28 @@ a {
     margin-bottom: 30px;
 }
 
+.footer__send label {
+    width: 85%;
+    height: 50px;
+}
+
+.footer__send label::after {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    content: url(../images/send.svg);
+    background: #1c305c;
+    background-size: 20px 20px;
+    top: 5px;
+    left: 35px;
+    border-radius: 50%;
+}
+
 .send__input {
     border: none;
     outline: none;
     border-radius: 35px;
-    width: 100%;
+    width: 85%;
     height: 50px;
     padding-left: 20px;
 }
