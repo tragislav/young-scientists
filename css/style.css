@@ -307,10 +307,12 @@ a {
 
 .news__card-footer__text {
     display: inline-block;
-    font-size: 17px;
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 500;
+    font-size: 17px;
     line-height: 20px;
-    color: #333;
+    color: #353536;
 }
 
 .news__card-footer__text:nth-child(1)::before {
