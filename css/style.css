@@ -167,6 +167,7 @@ a {
 
 .slider__inner {
     width: 100%;
+    height: 100%;
     display: flex;
 }
 
@@ -281,11 +282,14 @@ a {
 }
 
 .news__card-body__title {
-    margin: 15px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
     font-size: 23px;
     font-weight: 600;
     line-height: 27px;
     color: #333;
+    margin: 15px 0;
     max-height: 27px;
     overflow: hidden;
 }
@@ -356,7 +360,7 @@ a {
 
 .gallery {
     display: inline-block;
-    width: 100%px;
+    width: 100%;
     height: 369px;
     text-decoration: none;
     margin-bottom: 30px;
@@ -384,12 +388,15 @@ a {
     display: inline-block;
     width: 100%;
     max-height: 302px;
-    text-decoration: none;
     margin-bottom: 25px;
 }
 
+.another__news-card__link {
+    text-decoration: none;
+}
+
 .another__news-card__body {
-    width: 386px;
+    width: 100%;
     margin-bottom: 15px;
 }
 
@@ -630,6 +637,7 @@ a {
 }
 
 .footer__bottom-title {
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -637,4 +645,147 @@ a {
     color: #1c305c;
     text-align: center;
     margin: 17px 0;
+}
+
+@media (max-width: 1550px) {
+    .slider__content {
+        width: 100%;
+        text-align: center;
+        background: rgba(28, 48, 92, 0.32);
+        margin-top: 127px;
+        margin-bottom: 255px;
+        padding-left: 0;
+        height: 333px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        padding: 0 20px;
+    }
+    .menu__list-link {
+        /* font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 20px; */
+    }
+    .slider {
+        height: 583px;
+        background-image: url(../images/logo1000px.png);
+    }
+    .slider__content {
+        width: 100%;
+        text-align: center;
+        background: rgba(28, 48, 92, 0.32);
+        margin-top: 127px;
+        margin-bottom: 255px;
+        padding-left: 0;
+        height: 333px;
+    }
+    .news {
+        width: 638px;
+    }
+    .news__title-text {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .news__cards {
+        max-height: 865px;
+        overflow: hidden;
+    }
+    .news__card {
+        width: 307px;
+        height: 375px;
+        margin-bottom: 60px;
+    }
+    .news__card:nth-child(odd) {
+        margin-right: 20px;
+    }
+    .news__card-photo {
+        width: 100%;
+        height: 233px;
+    }
+    .news__card-body {
+        width: 100%;
+        height: 102px;
+    }
+    .news__card-body__title {
+        margin-top: 15px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .news__card-body__text {
+        max-height: 74px;
+        font-size: 15px;
+        line-height: 18px;
+        color: #333;
+    }
+    .news__card-footer {
+        width: 100%;
+        height: 16px;
+        margin-top: 7px;
+    }
+    .news__card-footer__text {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .news__card-footer__text:nth-child(1)::before {
+        top: 4px;
+        left: 0;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+    }
+    .news__card-footer__text:nth-child(2)::before {
+        top: 4px;
+        left: 0;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+    }
+    .news__card-footer__text:nth-child(3)::before {
+        top: 4px;
+        left: 0;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+    }
+    .another {
+        width: 306px;
+    }
+    .gallery {
+        height: 300px;
+    }
+    .another__news-cards {
+        max-height: 440px;
+        overflow: hidden;
+    }
+    .another__news-card {
+        display: inline-block;
+        width: 100%;
+    }
+    .another__news-card__body {
+        margin-bottom: 5px;
+    }
+    .another__news-card__body-title {
+        font-size: 17px;
+        line-height: 20px;
+        max-height: 80px;
+        margin-bottom: 10px;
+    }
+    .another__news-card__body-text {
+        font-size: 15px;
+        line-height: 18px;
+        max-height: 130px;
+    }
+    .another__news-card__footer-text {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .footer__bottom-title {
+        font-size: 17px;
+        line-height: 20px;
+        margin: 20px 0;
+    }
 }
