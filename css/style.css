@@ -156,6 +156,9 @@ a {
 }
 
 /* Main */
+.main {
+    margin-bottom: 60px;
+}
 /* Slider */
 .slider {
     font-family: 'Raleway';
@@ -442,7 +445,7 @@ a {
 
 /* Footer */
 .footer {
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
 .top__footer {
