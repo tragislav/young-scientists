@@ -320,12 +320,13 @@ a {
     line-height: 23px;
     color: #a7a7a7;
     padding-left: 30px;
+    position: relative;
 }
 
 .links__prev::before {
     content: url(../images/arroy.svg);
     position: absolute;
-    left: 345px;
+    left: 0px;
 }
 
 .main__bottom-content {

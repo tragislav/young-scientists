@@ -218,11 +218,15 @@ a {
     display: inline-block;
     border: 2px solid #1c305c;
     border-radius: 51.5px;
-    padding: 10px 20px 10px 15px;
+    padding: 10px 30px 10px 15px;
+    position: relative;
 }
 
 .news__btn-link::after {
     content: url(../images/video.svg);
+    position: absolute;
+    top: 12px;
+    right: 10px;
 }
 
 .news__cards {
