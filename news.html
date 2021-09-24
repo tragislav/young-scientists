@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/slick.css" />
         <link rel="stylesheet" href="css/jquery.fancybox.css" />
-        <link rel="stylesheet" href="css/contacts.css" />
+        <link rel="stylesheet" href="css/news.css" />
     </head>
     <body>
         <header class="header">
@@ -108,138 +108,216 @@
                 <section class="main__nav">
                     <p class="main__nav-prev">Главная</p>
                     <p class="main__nav-current">Контакты</p>
+                    <p class="main__nav-current__news">Онлайн конференция</p>
                 </section>
                 <section class="main__content">
-                    <section class="contacts">
-                        <h2 class="contacts__title-text">
-                            Контактная информация
-                        </h2>
-                        <div class="map">
+                    <section class="news">
+                        <div class="news__images">
                             <img
-                                class="map__images"
-                                src="images/map.png"
-                                alt="map"
+                                class="news__images-photo"
+                                src="images/news.png"
+                                alt="news photo"
                             />
-                            <a class="map__text" href="#">
-                                Посмотреть более крупную карту
+                            <img
+                                class="news__images-photo"
+                                src="images/news.png"
+                                alt="news photo"
+                            />
+                            <img
+                                class="news__images-photo"
+                                src="images/news.png"
+                                alt="news photo"
+                            />
+                            <img
+                                class="news__images-photo"
+                                src="images/news.png"
+                                alt="news photo"
+                            />
+                        </div>
+                        <div class="news__content">
+                            <div class="news__content-body">
+                                <h2 class="news__content-body__title">
+                                    Онлайн конференция
+                                </h2>
+                                <div class="news__content-body__text">
+                                    <p
+                                        class="
+                                            news__content-body__text-paragraph
+                                        "
+                                    >
+                                        11 мая 2017, в аудитории 1-210, в 1330,
+                                        состоится онлайн конференция с капитаном
+                                        команды по робототехнике RCA Михаилом
+                                        Персияновым-Дубровым.
+                                    </p>
+                                    <p
+                                        class="
+                                            news__content-body__text-paragraph
+                                        "
+                                    >
+                                        RCA RWTH Aachen University являются
+                                        действующими чемпионами Германии и
+                                        вице-чемпионами мира.
+                                    </p>
+                                    <p
+                                        class="
+                                            news__content-body__text-paragraph
+                                        "
+                                    >
+                                        11 мая 2017, в аудитории 1-210, в 1330,
+                                        состоится онлайн конференция с капитаном
+                                        команды по робототехнике RCA Михаилом
+                                        Персияновым-Дубровым.
+                                    </p>
+                                    <p
+                                        class="
+                                            news__content-body__text-paragraph
+                                        "
+                                    >
+                                        RCA RWTH Aachen University являются
+                                        действующими чемпионами Германии и
+                                        вице-чемпионами мира.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="news__content-footer">
+                                <p class="news__content-footer__text">
+                                    6 июля 2021
+                                </p>
+                                <p class="news__content-footer__text">Курсы</p>
+                                <p class="news__content-footer__text">
+                                    12:36 PM
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="links">
+                        <a class="links__prev" href="allNews.html">
+                            К списку всех новостей рубрики
+                        </a>
+                    </section>
+                </section>
+                <section class="main__bottom-content">
+                    <h2 class="main__bottom-content__title">Читайте также</h2>
+                    <div class="main__bottom-content__cards">
+                        <div class="main__bottom-content__card">
+                            <a class="main__bottom-content__card-link" href="#">
+                                <div class="main__bottom-content__card-photo">
+                                    <img
+                                        src="images/news-1.png"
+                                        alt="news"
+                                        class="
+                                            main__bottom-content__card-photo__img
+                                        "
+                                    />
+                                </div>
+                                <div class="main__bottom-content__card-body">
+                                    <h3
+                                        class="
+                                            main__bottom-content__card__title
+                                        "
+                                    >
+                                        Онлайн конференция
+                                    </h3>
+                                    <p class="main__bottom-content__card__text">
+                                        Онлайн конференция с капитаном команды
+                                        по робототехнике RCA RWTH Aachen
+                                        University Михаилом
+                                        Персияновым-Дубровым.
+                                    </p>
+                                </div>
+                                <div class="main__bottom-content__card-footer">
+                                    <p class="main__bottom-content__card-text">
+                                        6 июля 2021
+                                    </p>
+                                    <p class="main__bottom-content__card-text">
+                                        Курсы
+                                    </p>
+                                    <p class="main__bottom-content__card-text">
+                                        12:36 PM
+                                    </p>
+                                </div>
                             </a>
                         </div>
-                        <section class="contacts__info">
-                            <div class="contacts__info-content">
-                                <h2 class="contacts__info-title">Адрес</h2>
-                                <p class="contacts__info-text">
-                                    210035, Беларусь, г. Витебск,<br />
-                                    Московский пр., 72<br />
-                                    Главный корпус, аудитория 1-217
-                                </p>
-                                <a
-                                    class="contacts__info-content__tel"
-                                    href="tel:375172095410"
-                                >
-                                    Тел: + 375 17 209-54-10
-                                </a>
-                                <br />
-                                <a
-                                    class="contacts__info-content__mail"
-                                    href="mailto:infoVGTY.@mail.ru"
-                                >
-                                    infoVGTY.@mail.ru
-                                </a>
-                                <h2 class="contacts__info-title">
-                                    Мы в соцсетях
-                                </h2>
-                                <div class="contacts__info-content__social">
-                                    <a
+                        <div class="main__bottom-content__card">
+                            <a class="main__bottom-content__card-link" href="#">
+                                <div class="main__bottom-content__card-photo">
+                                    <img
+                                        src="images/news-1.png"
+                                        alt="news"
                                         class="
-                                            contacts__info-content__social-link
+                                            main__bottom-content__card-photo__img
                                         "
-                                        href="#"
-                                    >
-                                        <img
-                                            src="images/facebook.png"
-                                            alt="social"
-                                        />
-                                    </a>
-                                    <a
-                                        class="
-                                            contacts__info-content__social-link
-                                        "
-                                        href="#"
-                                    >
-                                        <img
-                                            src="images/instagram.png"
-                                            alt="social"
-                                        />
-                                    </a>
-                                    <a
-                                        class="
-                                            contacts__info-content__social-link
-                                        "
-                                        href="#"
-                                    >
-                                        <img
-                                            src="images/twitter.png"
-                                            alt="social"
-                                        />
-                                    </a>
-                                    <a
-                                        class="
-                                            contacts__info-content__social-link
-                                        "
-                                        href="#"
-                                    >
-                                        <img
-                                            src="images/mail.png"
-                                            alt="social"
-                                        />
-                                    </a>
+                                    />
                                 </div>
-                            </div>
-                            <div class="contacts__info-form">
-                                <h2 class="contacts__info-title">
-                                    Мы на связи
-                                </h2>
-                                <p class="contacts__info-text">
-                                    11 мая 2017, в аудитории 1-210, в 1330,
-                                    состоится онлайн конференция с капитаном
-                                    команды по робототехнике RCA Михаилом
-                                    Персияновым-Дубровым.
-                                </p>
-                                <div class="contacts__div-form">
-                                    <form class="contacts__form">
-                                        <label>
-                                            <input
-                                                class="contacts__form-name"
-                                                type="text"
-                                                placeholder="Ваше имя"
-                                            />
-                                        </label>
-                                        <label>
-                                            <textarea
-                                                class="contacts__form-text"
-                                                placeholder="Опишите ваш вопрос"
-                                            >
-                                            </textarea>
-                                        </label>
-                                        <label>
-                                            <input
-                                                class="contacts__form-email"
-                                                type="email"
-                                                placeholder="Ваш E-mail адрес"
-                                            />
-                                        </label>
-                                        <label class="contacts__form-label">
-                                            <input
-                                                class="contacts__form-submit"
-                                                type="submit"
-                                                placeholder="Отправить"
-                                            />
-                                        </label>
-                                    </form>
+                                <div class="main__bottom-content__card-body">
+                                    <h3
+                                        class="
+                                            main__bottom-content__card__title
+                                        "
+                                    >
+                                        Онлайн конференция
+                                    </h3>
+                                    <p class="main__bottom-content__card__text">
+                                        Онлайн конференция с капитаном команды
+                                        по робототехнике RCA RWTH Aachen
+                                        University Михаилом
+                                        Персияновым-Дубровым.
+                                    </p>
                                 </div>
-                            </div>
-                        </section>
-                    </section>
+                                <div class="main__bottom-content__card-footer">
+                                    <p class="main__bottom-content__card-text">
+                                        6 июля 2021
+                                    </p>
+                                    <p class="main__bottom-content__card-text">
+                                        Курсы
+                                    </p>
+                                    <p class="main__bottom-content__card-text">
+                                        12:36 PM
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main__bottom-content__card">
+                            <a class="main__bottom-content__card-link" href="#">
+                                <div class="main__bottom-content__card-photo">
+                                    <img
+                                        src="images/news-1.png"
+                                        alt="news"
+                                        class="
+                                            main__bottom-content__card-photo__img
+                                        "
+                                    />
+                                </div>
+                                <div class="main__bottom-content__card-body">
+                                    <h3
+                                        class="
+                                            main__bottom-content__card__title
+                                        "
+                                    >
+                                        Онлайн конференция
+                                    </h3>
+                                    <p class="main__bottom-content__card__text">
+                                        Онлайн конференция с капитаном команды
+                                        по робототехнике RCA RWTH Aachen
+                                        University Михаилом
+                                        Персияновым-Дубровым.
+                                    </p>
+                                </div>
+                                <div class="main__bottom-content__card-footer">
+                                    <p class="main__bottom-content__card-text">
+                                        6 июля 2021
+                                    </p>
+                                    <p class="main__bottom-content__card-text">
+                                        Курсы
+                                    </p>
+                                    <p class="main__bottom-content__card-text">
+                                        12:36 PM
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </section>
             </div>
         </main>
